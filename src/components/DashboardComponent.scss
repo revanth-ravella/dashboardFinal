@@ -1,0 +1,174 @@
+/* data1 */
+.data {
+  width: calc(100% - 10rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10rem;
+  margin-top: 3rem;
+
+}
+.box1 {
+  margin-top: 1rem;
+  height: 40rem;
+  width: 80rem;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+.region {
+  height: 5%;
+  display: flex;
+  align-items: center;
+}
+
+.region > h4 {
+  margin-left: 0.5rem;
+}
+.country_box {
+  height: 15rem;
+  width: 15rem;
+  background-color: #924444;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+.country_box::-webkit-scrollbar {
+  display: none;
+}
+.country_title {
+  position: fixed;
+
+  width: 15rem;
+  background-color: burlywood;
+}
+h3 {
+  margin-top: 2rem;
+}
+.logo_icon {
+  font-size: 1.5rem;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.filter_cont {
+  font-size: 1rem;
+  background-color: black;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.filter_icon {
+  font-size: 1rem;
+  color: white;
+}
+.filter:hover {
+  background-color: white;
+  transition: all 100ms ease;
+}
+.filter:hover .filter_icon {
+  color: black;
+  transition: all 100ms ease;
+}
+
+.dashboard_icon,
+.insight_icon,
+.data_icon,
+.copyrights {
+  display: flex;
+  gap: 0.85rem;
+}
+.graph_box {
+  height: 17rem;
+  width: 15rem;
+  background-color: #948f8f;
+}
+.graph_box_right {
+  height: 20rem;
+  width: 15rem;
+  background-color: #948f8f;
+}
+
+.right {
+  background-color: #241414;
+  height: 32rem;
+  width: 45rem;
+}
+.right_most {
+  background-color: #b83a3a;
+  height: 32rem;
+  width: 15rem;
+}
+
+
+.data_inside {
+  display: grid;
+  grid-template-columns: 2fr 4fr; /* More space on the left (2 parts) and less space on the right (1 part) */
+  grid-template-rows: 1fr 1fr; /* Two rows with equal height */
+  gap: 5px;
+  height: 95%;
+}
+.grid-item1 {
+  background-color: #ddd;
+  text-align: center;
+  overflow-y: scroll;
+  border-radius: 5px;
+}
+.grid-item1 > h3 {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  position: sticky;
+  background-color: #241414;
+  color: white;
+}
+.country_list {
+  margin-top: 1.5rem;
+}
+.country_list > h4 {
+  margin-top: 1rem;
+}
+
+.grid-item {
+  background-color: #ddd;
+  text-align: center;
+  border: solid 1px;
+}
+
+.grid-item {
+  background-color: #ddd;
+  text-align: center;
+  border: solid 1px;
+}
+.grid-item2 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #ddd;
+  justify-content: center;
+}
+.grid-item2 .bar-chart {
+  max-height: 100%; /* Ensure the chart doesn't exceed the container's height */
+  width: 100%; /* Ensure the chart fills the container horizontally */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grid-item4 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+.grid-item4 .pie-chart {
+  max-height: 100%; /* Ensure the chart doesn't exceed the container's height */
+  width: 100%; /* Ensure the chart fills the container horizontally */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

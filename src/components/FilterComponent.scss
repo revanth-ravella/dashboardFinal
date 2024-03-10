@@ -1,0 +1,52 @@
+.filter_container {
+  width: calc(100% - 10rem);
+  height: calc(100dvh - 5rem);
+  display: flex;
+  margin-left: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .filter_body {
+    width: 95%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    overflow-y: scroll;
+    ::-webkit-scrollbar {
+      width: 0; /* Set scrollbar width to 0 */
+      height: 0; /* Set scrollbar height to 0 */
+    }
+    .filter_data {
+      margin: 1rem;
+      flex-wrap: wrap;
+      .filter_data_content {
+        width: 100%;
+        margin-top: 1rem;
+        .filter_value {
+          display: flex;
+          align-items: center;
+          width: max-content;
+          flex-direction: column;
+          background-color: rgb(222, 222, 222);
+          padding: 0.3rem 1rem;
+          margin: 0.5rem;
+          border-radius: 5px;
+          &:hover {
+            background-color: rgb(
+              61,
+              56,
+              56
+            ); /* Example: Change background color on hover */
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+
+.darkBackground {
+  color: red;
+
+}
